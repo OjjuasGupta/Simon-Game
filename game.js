@@ -1,6 +1,6 @@
 var buttonColours = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
-//3. At the top of the game.js file, create a new empty array with the name userClickedPattern.
+//3. At the top of the game.js file, create a new an empty array with the name userClickedPattern.
 var userClickedPattern = [];
 
 //1. Use jQuery to detect when any of the buttons are clicked and trigger a handler function.
