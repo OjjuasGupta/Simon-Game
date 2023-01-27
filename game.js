@@ -5,5 +5,5 @@ function nextSequence(){
 
    var randomChosenColour = buttonColours[randomNumber];
     gamePattern.push(randomChosenColour);
-
+    $("#" + randomChosenColour)
 }
