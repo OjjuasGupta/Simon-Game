@@ -1,3 +1,4 @@
+
 function nextSequence(){
-    var randomNumber=Math.random();
+   var randomNumber = Math.floor(Math.random() * 4);
 }
