@@ -27,6 +27,12 @@ function nextSequence() {
 
   $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
-  var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
+}
+
+  function playSound(name) {
+
+  //3. Take the code we used to play sound in the nextSequence() function and add it to playSound().
+  var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
+
