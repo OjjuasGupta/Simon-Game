@@ -16,6 +16,7 @@ $(".btn").click(function() {
   userClickedPattern.push(userChosenColour);
 
   //console.log(userClickedPattern);
+  playSound(userChosenColour);
 
 });
 
