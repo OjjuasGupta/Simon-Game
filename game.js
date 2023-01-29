@@ -35,6 +35,19 @@ function checkAnswer(currentLevel) {
 
       console.log("success");
       if (userClickedPattern.length === gamePattern.length){
+        setTimeout(function () {
+          nextSequence();
+        }, 1000);
+
+      }
+
+    } else {
+
+      console.log("wrong");
+
+    }
+
+}
 function nextSequence() {
 
   //4. Inside nextSequence(), increase the level by 1 every time nextSequence() is called.
