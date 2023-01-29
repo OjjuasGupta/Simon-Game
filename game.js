@@ -50,6 +50,7 @@ function checkAnswer(currentLevel) {
 }
 function nextSequence() {
 
+  userClickedPattern = [];
   //4. Inside nextSequence(), increase the level by 1 every time nextSequence() is called.
   level++;
 
