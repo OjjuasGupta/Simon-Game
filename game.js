@@ -29,7 +29,7 @@ $(".btn").click(function() {
   playSound(userChosenColour);
   animatePress(userChosenColour);
 });
-
+function checkAnswer(currentLevel) {
 function nextSequence() {
 
   //4. Inside nextSequence(), increase the level by 1 every time nextSequence() is called.
