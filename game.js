@@ -34,6 +34,7 @@ function checkAnswer(currentLevel) {
    if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
 
       console.log("success");
+      if (userClickedPattern.length === gamePattern.length){
 function nextSequence() {
 
   //4. Inside nextSequence(), increase the level by 1 every time nextSequence() is called.
