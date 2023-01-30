@@ -50,6 +50,8 @@ function checkAnswer(currentLevel) {
 
       console.log("wrong");
 
+      playSound("wrong");
+
     }
 
 }
